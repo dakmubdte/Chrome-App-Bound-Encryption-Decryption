@@ -27,7 +27,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: build-tool-encryptor
-          path: build/encryptor.dll
+          path: build/encryptor.exe
 
   build:
     name: Build for ${{ matrix.architecture }}
